@@ -10,7 +10,7 @@ Add CashFlows
 
 addCashFlows( e\ :sub:`1`\ : Transfers , e\ :sub:`2`\ : Transfers) : Transfers
 
-The addCashFlows() function returns the pointwise addition of e\ :sub:`1`\ and e\ :sub:`2`\. Note e\ :sub:`1`\ and e\ :sub:`2`\ should be ```Transfers`` of equal lenght.
+The addCashFlows() function returns the pointwise addition of e\ :sub:`1`\ and e\ :sub:`2`\. Note e\ :sub:`1`\ and e\ :sub:`2`\ should be ``Transfers`` of equal lenght.
 
 Dicount 
 """"""""
