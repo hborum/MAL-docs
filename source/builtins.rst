@@ -142,7 +142,7 @@ createMap( e\ :sub:`1`\ : List<T\ :sub:`1`\> , e\ :sub:`2`\ : List<T\ :sub:`2`\>
 The createMap() function returns a map from the values e\ :sub:`1`\ to the values of e\ :sub:`2`\. Note e\ :sub:`1`\ and e\ :sub:`2`\ must be lists of equal length.
 
 Map to values
-^^^^^^^^^^^^^^
+"""""""""""""""
 
 mapToValues(e\ :sub:`1`\ : Map<T\ :sub:`1`\, T\ :sub:`2`\>) : List<T\ :sub:`2`\>
 
