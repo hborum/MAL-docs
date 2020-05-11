@@ -65,7 +65,7 @@ This means that all ``Interest`` has all the fields of a ``Group`` plus some.
 
 	data Interest extends Group
 		Param          : InterestParam
-		InterestFields : Float
+		InterestFields : Float, Output as CashFlow(Debug)
 	end
 
 We are allowed to extend the fields of an extended entity. For example ``Interest`` use an extended field ``Param`` of the type ``InterestParam``.
