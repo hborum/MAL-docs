@@ -59,7 +59,7 @@ Example
   fun square(x : Float) = x * x
 
 
-``action a (x₁ : Type₁, ... , xₙ  : Typeₙ) = s₁``
+``action a (x₁ : Type₁, ... , xₙ  : Typeₙ) with s₁ end``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Specifies the action f(x₁, ... , xₙ). 
 The arguments of ``a`` is x₁ to xₙ. The body of the action is s₁.
@@ -70,8 +70,10 @@ Example
 .. code-block:: text
   :linenos:
 
-  action updateReserve(policy : Policy , newReserve : Float) = 
+  action updateReserve(policy : Policy , newReserve : Float) 
+  with 
     policy.Reserve = newReserve
+  end
 
 
 Statements ``s``
